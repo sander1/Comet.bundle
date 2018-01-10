@@ -4,7 +4,7 @@ ICON = 'icon-default.jpg'
 ART = 'art-default.jpg'
 
 WATCH_LIVE_URL = 'http://www.comettv.com/watch-live/'
-RE_VIDEO_URL = Regex('file: "(http:\/\/.+\.m3u8[^"]+)"')
+RE_VIDEO_URL = Regex('file:[ ]*"(https?:\/\/.+\.m3u8[^"]+)"')
 
 ####################################################################################################
 def Start():
